@@ -1,0 +1,13 @@
+@font-face {
+  font-family: ComicMono;
+  src: url("/ComicMono.ttf")
+}
+
+@font-face {
+  font-family: Excalifont;
+  src: url("/Excalifont-Regular.woff2")
+}
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
