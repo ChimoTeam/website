@@ -1,6 +1,6 @@
 <section class="rounded-md text-ctp-base p-4">
-  <div class="bg-gradient-to-br from-ctp-peach via-ctp-pink to-ctp-green p-8 rounded-sm flex justify-around items-center">
-    <div>
+  <div class="bg-gradient-to-br from-ctp-peach via-ctp-pink to-ctp-green p-8 rounded-sm flex flex-col sm:flex-row justify-around items-center">
+    <div class="mb-2">
       <h2 class="text-2xl font-bold">Contact us</h2>
       <p>Wanna contact a member individually? Use the adresses listed above.</p>
     </div>

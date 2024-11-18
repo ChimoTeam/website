@@ -4,14 +4,14 @@
 
 <section class="p-4">
   <h2 class="text-lg">Meet us</h2>
-  <div class="bg-ctp-surface0 p-4 grid md:grid-cols-2 gap-2 rounded-sm">
-    <div class="flex items-center flex-col">
+  <div class="bg-ctp-surface0 grid md:grid-cols-2 rounded-sm">
+    <div class="flex items-center flex-col mt-4">
       <div class="flex flex-col justify-center items-center mb-2">
         <img src="https://cdn.discordapp.com/avatars/768761151739658240/d02bfca1a2559b7c9c9bbcc627532cf0.webp" alt="Rivest's Profile Picture" class="rounded-full h-12 w-12" />
         <p class="font-bold text-2xl text-center">Rivest</p>
       </div>
-      <pre class="bg-ctp-base rounded-md p-2">
-        <code class="font-mono text-sm sm:text-base p-2">
+      <pre class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">
+        <code class="font-mono text-xs md:text-sm p-2">
 <span class="text-ctp-blue">start_profile</span><span class="text-ctp-red">();</span>
 
 <span class="text-ctp-blue">set_title</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"low-level developer"</span><span class="text-ctp-red">);</span>
@@ -29,13 +29,13 @@
         </code>
       </pre>
     </div>
-    <div class="flex justify-center items-center flex-col">
+    <div class="flex justify-center items-center flex-col mt-4">
       <div class="flex flex-col justify-center items-center mb-2">
         <img src="https://cdn.discordapp.com/avatars/608029420929679370/82404a95956db885fee852a7bc15a450.webp" alt="Ilai's Profile Picture" class="rounded-full h-12 w-12" />
         <p class="font-bold text-2xl text-center">Ilai</p>
       </div>
-      <pre class="bg-ctp-base rounded-md p-2">
-        <code class="font-mono text-sm sm:text-base p-2">
+      <pre class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">
+        <code class="font-mono text-xs md:text-sm p-2">
 <span class="text-ctp-red">&lt;div&gt;</span>
   <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span class="text-ctp-red">&lt;/title&gt;</span>
     <span class="text-ctp-red">&lt;pronoun&gt;</span>he/him<span class="text-ctp-red">&lt;/pronoun&gt;</span>
