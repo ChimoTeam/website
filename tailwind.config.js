@@ -1,5 +1,7 @@
+import catppuccin from "@catppuccin/tailwindcss"
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./src/**/*.{svelte,js}"
   ],
@@ -11,7 +13,7 @@ module.exports = {
       }
     },
   },
-  plugins: [require("@catppuccin/tailwindcss")({
+  plugins: [catppuccin({
     prefix: "ctp",
     defaultFlavour: "macchiato"
   })],
