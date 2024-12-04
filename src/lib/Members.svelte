@@ -81,7 +81,7 @@
         class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">
         <code class="font-mono text-xs md:text-sm p-2">
 <span class="text-ctp-red">&lt;div&gt;</span>
-  <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span
+    <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span
             class="text-ctp-red">&lt;/title&gt;</span
           >
     <span class="text-ctp-red">&lt;pronoun&gt;</span>he/him<span
