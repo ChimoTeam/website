@@ -81,36 +81,36 @@
         class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">
         <code class="font-mono text-xs md:text-sm p-2">
 <span class="text-ctp-red">&lt;div&gt;</span>
-    <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span
-            class="text-ctp-red">&lt;/title&gt;</span
-          >
-    <span class="text-ctp-red">&lt;pronoun&gt;</span>he/him<span
-            class="text-ctp-red">&lt;/pronoun&gt;</span
-          >
-    <span class="text-ctp-red">&lt;email&gt;</span>ilai@chimoteam.eu.org<span
-            class="text-ctp-red">&lt;/pronoun&gt;</span
-          >
-    <span class="text-ctp-red">&lt;skillset&gt;</span>
-    <span class="text-ctp-red">&lt;ul&gt;</span>
-      <span class="text-ctp-red">&lt;li&gt;</span>JavaScript<span
-            class="text-ctp-red">&lt;/li&gt;</span
-          >
-      <span class="text-ctp-red">&lt;li&gt;</span>TypeScript<span
-            class="text-ctp-red">&lt;/li&gt;</span
-          >
-      <span class="text-ctp-red">&lt;li&gt;</span>HTML<span class="text-ctp-red"
-            >&lt;/li&gt;</span
-          >
-      <span class="text-ctp-red">&lt;li&gt;</span>CSS<span class="text-ctp-red"
-            >&lt;/li&gt;</span
-          >
-      <span class="text-ctp-red">&lt;li&gt;</span>Svelte<span
-            class="text-ctp-red">&lt;/li&gt;</span
-          >
-      <span class="text-ctp-red">&lt;li&gt;</span>React<span
-            class="text-ctp-red">&lt;/li&gt;</span
-          >
-    <span class="text-ctp-red">&lt;/ul&gt;</span>
+  <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span
+          class="text-ctp-red">&lt;/title&gt;</span
+        >
+  <span class="text-ctp-red">&lt;pronoun&gt;</span>he/him<span
+          class="text-ctp-red">&lt;/pronoun&gt;</span
+        >
+  <span class="text-ctp-red">&lt;email&gt;</span>ilai@chimoteam.eu.org<span
+          class="text-ctp-red">&lt;/email&gt;</span
+        >
+  <span class="text-ctp-red">&lt;skillset&gt;</span>
+  <span class="text-ctp-red">&lt;ul&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>JavaScript<span
+          class="text-ctp-red">&lt;/li&gt;</span
+        >
+    <span class="text-ctp-red">&lt;li&gt;</span>TypeScript<span
+          class="text-ctp-red">&lt;/li&gt;</span
+        >
+    <span class="text-ctp-red">&lt;li&gt;</span>HTML<span class="text-ctp-red"
+          >&lt;/li&gt;</span
+        >
+    <span class="text-ctp-red">&lt;li&gt;</span>CSS<span class="text-ctp-red"
+          >&lt;/li&gt;</span
+        >
+    <span class="text-ctp-red">&lt;li&gt;</span>Svelte<span
+          class="text-ctp-red">&lt;/li&gt;</span
+        >
+    <span class="text-ctp-red">&lt;li&gt;</span>React<span
+          class="text-ctp-red">&lt;/li&gt;</span
+        >
+  <span class="text-ctp-red">&lt;/ul&gt;</span>
   <span class="text-ctp-red">&lt;/skillset&gt;</span>
   <span class="text-ctp-red">&lt;github&gt;</span><a
             href="https://github.com/ilaicraftYT"
