@@ -8,7 +8,7 @@
     <div class="flex items-center flex-col mt-4">
       <div class="flex flex-col justify-center items-center mb-2">
         <img
-          src="https://cdn.discordapp.com/avatars/768761151739658240/d02bfca1a2559b7c9c9bbcc627532cf0.webp"
+          src="/rosz.png"
           alt="Rivest's Profile Picture"
           class="rounded-full h-12 w-12"
         />
@@ -71,7 +71,7 @@
     <div class="flex justify-center items-center flex-col mt-4">
       <div class="flex flex-col justify-center items-center mb-2">
         <img
-          src="https://cdn.discordapp.com/avatars/608029420929679370/0f2ef3e89102c5b769a43257b5b1d477.webp"
+          src="/ilai.png"
           alt="Ilai's Profile Picture"
           class="rounded-full h-12 w-12"
         />
