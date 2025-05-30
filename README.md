@@ -1,10 +1,3 @@
-# ChimoTeam's Website
+# ChimoTeam website, without JS
 
-***Viva la Chimo.***
-
-Uses:
-* Svelte (not Kit)
-* TailwindCSS
-* `@catppuccin/tailwindcss`
-
-That's it. Go away. Why are you still here?
+I basically wrote everything in a single HTML file, I don't remember why I didn't do this in the first place, maybe because I wanted to flex my Svelte skills lol

@@ -1,29 +1,117 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ChimoTeam</title>
-    <meta property="og:site_name" content="ChimoTeam" />
-  	<meta property="og:type" content="website" />
-  	<meta property="og:description" content="We are a team of several independent developers who build software with lots of cats and love." />
-  	<meta property="og:url" content="https://chimoteam.eu.org/" />
-  	<meta property="og:image" content="/chimo.jpg" />
-  	<meta property="theme-color" content="#1e1e2e" />
+    <meta property="og:site_name" content="ChimoTeam">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="We are a team of several independent developers who build software with lots of cats and love.">
+    <meta property="og:url" content="https://chimoteam.eu.org/">
+    <meta property="og:image" content="/public/chimo.jpg">
+    <meta property="theme-color" content="#1e1e2e">
+    <link rel="stylesheet" crossorigin="" href="/index.css">
 </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
 
-    <div id="noscript">
-      <h2>
-        Currently, <b>JavaScript</b> needs to be supported and enabled to run this
-        website
-      </h2>
+<body>
+    <div id="app">
+        <main class="bg-ctp-base text-ctp-text min-h-screen">
+            <div class="h-2 w-screen bg-gradient-to-r from-ctp-peach via-ctp-pink to-ctp-green"></div>
+            <header class="p-4">
+                <h1
+                    class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-ctp-peach to-ctp-pink">
+                    ChimoTeam</h1>
+            </header><!---->
+            <div class="grid md:grid-cols-2 gap-4 p-8 overflow-visible">
+                <div class="flex flex-col justify-center items-center text-center">
+                    <h1
+                        class="text-3xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-ctp-peach via-ctp-pink to-ctp-green">
+                        Building software with lots of 🐱</h1>
+                    <p>...and ❤️ too.</p>
+                </div>
+                <div>
+                    <pre class="flex justify-center items-center">        <span class="font-mono text-2xl text-transparent bg-clip-text bg-gradient-to-br from-ctp-peach via-ctp-pink to-ctp-green font-black">
+ /| ､
+(°､ ｡ 7
+ |､  ~ヽ
+ じしf_,)〳
+
+        </span>
+      </pre>
+                </div>
+            </div>
+            <section class="p-4">
+                <h2 class="text-lg">Meet us</h2>
+                <div class="bg-ctp-surface0 grid md:grid-cols-2 rounded-sm">
+                    <div class="flex items-center flex-col mt-4">
+                        <div class="flex flex-col justify-center items-center mb-2"><img src="/public/rosz.png"
+                                alt="Rivest's Profile Picture" class="rounded-full h-12 w-12">
+                            <p class="font-bold text-2xl text-center">Rivest</p>
+                        </div>
+                        <pre class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">        <code class="font-mono text-xs md:text-sm p-2">
+<span class="text-ctp-blue">start_profile</span><span class="text-ctp-red">();</span>
+
+<span class="text-ctp-blue">set_title</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"low-level developer"</span><span class="text-ctp-red">);</span>
+<span class="text-ctp-blue">set_pronoun</span><span class="text-ctp-red">(</span><span class="text-ctp-mauve">NULL</span><span class="text-ctp-red">);</span> <span class="text-ctp-green">// whatever</span>
+<span class="text-ctp-blue">add_email</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"rivest@chimoteam.eu.org"</span><span class="text-ctp-red">);</span>
+<span class="text-ctp-blue">start_skillset</span><span class="text-ctp-red">();</span>
+  <span class="text-ctp-blue">add_skill</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"C(++)"</span><span class="text-ctp-red">);</span>
+  <span class="text-ctp-blue">add_skill</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"JavaScript"</span><span class="text-ctp-red">);</span>
+  <span class="text-ctp-blue">add_skill</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"Embebbed systems"</span><span class="text-ctp-red">);</span>
+<span class="text-ctp-blue">end_skillset</span><span class="text-ctp-red">();</span>
+<span class="text-ctp-blue">add_quirk</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"retro nerd"</span><span class="text-ctp-red">);</span>
+<span class="text-ctp-blue">set_url</span><span class="text-ctp-red">(</span><span class="text-ctp-peach">"github"</span><span class="text-ctp-red">, </span><span class="text-ctp-peach">"https://github.com/rivest-oss"</span><span class="text-ctp-red">);</span>
+
+<span class="text-ctp-blue">end_profile</span><span class="text-ctp-red">();</span>
+        </code>
+      </pre>
+                    </div>
+                    <div class="flex justify-center items-center flex-col mt-4">
+                        <div class="flex flex-col justify-center items-center mb-2"><img src="/public/ilai.png"
+                                alt="Ilai's Profile Picture" class="rounded-full h-12 w-12">
+                            <p class="font-bold text-2xl text-center">Ilai</p>
+                        </div>
+                        <pre class="bg-ctp-base rounded-md p-2 m-2 whitespace-pre-wrap break-words">        <code class="font-mono text-xs md:text-sm p-2">
+<span class="text-ctp-red">&lt;div&gt;</span>
+  <span class="text-ctp-red">&lt;title&gt;</span>front-end developer<span class="text-ctp-red">&lt;/title&gt;</span>
+  <span class="text-ctp-red">&lt;pronoun&gt;</span>he/him<span class="text-ctp-red">&lt;/pronoun&gt;</span>
+  <span class="text-ctp-red">&lt;email&gt;</span>ilai@chimoteam.eu.org<span class="text-ctp-red">&lt;/email&gt;</span>
+  <span class="text-ctp-red">&lt;skillset&gt;</span>
+  <span class="text-ctp-red">&lt;ul&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>JavaScript<span class="text-ctp-red">&lt;/li&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>TypeScript<span class="text-ctp-red">&lt;/li&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>HTML<span class="text-ctp-red">&lt;/li&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>CSS<span class="text-ctp-red">&lt;/li&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>Svelte<span class="text-ctp-red">&lt;/li&gt;</span>
+    <span class="text-ctp-red">&lt;li&gt;</span>React<span class="text-ctp-red">&lt;/li&gt;</span>
+  <span class="text-ctp-red">&lt;/ul&gt;</span>
+  <span class="text-ctp-red">&lt;/skillset&gt;</span>
+  <span class="text-ctp-red">&lt;github&gt;</span><a href="https://github.com/ilaicraftYT" class="font-bold underline">https://github.com/ilaicraftYT</a><span class="text-ctp-red">&lt;/github&gt;</span>
+  <span class="text-ctp-red">&lt;website&gt;</span><a href="https://soyilai.vercel.app" class="font-bold underline">https://soyilai.vercel.app</a><span class="text-ctp-red">&lt;/website&gt;</span>
+<span class="text-ctp-red">&lt;/div&gt;</span>
+        </code>
+      </pre>
+                    </div>
+                </div>
+            </section><!---->
+            <section class="rounded-md text-ctp-base p-4">
+                <div
+                    class="bg-gradient-to-br from-ctp-peach via-ctp-pink to-ctp-green p-8 rounded-sm flex flex-col sm:flex-row justify-around items-center">
+                    <div class="mb-2">
+                        <h2 class="text-2xl font-bold">Contact us</h2>
+                        <p>Wanna contact a member individually? Use the adresses listed above.</p>
+                    </div>
+                    <div class="inline-flex items-center">
+                        <div class="bg-ctp-crust text-ctp-text p-2 rounded-l-sm font-mono">contact@chimoteam.eu.org
+                        </div> <a href="mailto:contact@chimoteam.eu.org"
+                            class="p-2 bg-ctp-base text-ctp-text rounded-r-sm">Go</a>
+                    </div>
+                </div>
+            </section><!---->
+        </main>
     </div>
-    <script type="text/javascript">
-      document.getElementById("noscript").remove();
-    </script>
-  </body>
+</body>
+
 </html>
