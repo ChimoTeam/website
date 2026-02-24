@@ -19,7 +19,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "python3 -m http.server -d htdocs/ 9999",
-		"build": "",
+		"build": "mkdir -p build",
 		"preview": "open http://localhost:9999/"
 	}
 }
