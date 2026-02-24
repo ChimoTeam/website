@@ -1,23 +1,25 @@
 {
-  "name": "chimoteam",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@catppuccin/tailwindcss": "^0.1.6",
-    "@sveltejs/vite-plugin-svelte": "^4.0.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "svelte": "^5.1.3",
-    "tailwindcss": "^3.4.15",
-    "vite": "^5.4.10"
-  },
-  "dependencies": {
-    "caniuse-lite": "^1.0.30001717"
-  }
+	"name": "@chimoteam/website",
+	"private": true,
+	"version": "2.0.0-alpha",
+	"description": "www.chimoteam.eu.org",
+	"keywords": [
+		"chimoteam"
+	],
+	"homepage": "https://github.com/ChimoTeam/website#readme",
+	"bugs": {
+		"url": "https://github.com/ChimoTeam/website/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ChimoTeam/website.git"
+	},
+	"license": "GPL-3.0-or-later",
+	"author": "ChimoTeam",
+	"type": "module",
+	"scripts": {
+		"dev": "python3 -m http.server -d htdocs/ 9999",
+		"build": "python3 -m http.server -d htdocs/ 9999",
+		"preview": "open http://localhost:9999/"
+	}
 }

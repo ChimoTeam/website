@@ -1,0 +1,16 @@
+@font-face {
+	font-family: ComicMono;
+	src: url("/font/ComicMono.ttf");
+}
+
+@font-face {
+	font-family: Excalifont;
+	src: url("/font/Excalifont-Regular.woff2");
+}
+
+/*
+Yes, I know I should concat both .css so the website
+loads faster but hey...
+good enough for now.
+- Rivest (2026/02/24)
+*/

@@ -3,8 +3,7 @@
 ***Viva la Chimo.***
 
 Uses:
-* Svelte (not Kit)
-* TailwindCSS
-* `@catppuccin/tailwindcss`
+* HTML
+* CSS
 
 That's it. Go away. Why are you still here?
